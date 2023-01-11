@@ -1,0 +1,21 @@
+{
+  "name": "taiwind-coffee",
+  "version": "1.0.0",
+  "description": "taiwind-coffee",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./public/output.css --watch",
+    "start": "live-server public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  },
+  "dependencies": {
+    "firebase-tools": "^11.20.0",
+    "live-server": "^1.2.2",
+    "nodemon": "^2.0.20"
+  }
+}
